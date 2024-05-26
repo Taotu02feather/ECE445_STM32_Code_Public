@@ -1,0 +1,347 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Tao, 1, LIC=ATTQ1-CB2RM-WF2I7-ENN8I-U6XJ1-QUQPY
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.15.0_KEIL
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+C:\Users\61716\Desktop\ECE445\Sensors\GitPath\ECE445_STM32\USER\OV7725.uvprojx
+Project File Date:  05/08/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'OV7725'
+compiling main.c...
+..\HARDWARE\STEER\steer.h(14): warning:  #1295-D: Deprecated declaration steer_speed_choice - give arg types
+  int steer_speed_choice();
+..\HARDWARE\STEER\steer.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_ADC.h(11): warning:  #1295-D: Deprecated declaration ADC_Get - give arg types
+  u16 ADC_Get();
+USER_ADC.h(12): warning:  #1-D: last line of file ends without a newline
+  int ADC_Print(u16 num);
+Control_System.h(18): warning:  #1295-D: Deprecated declaration HC08_Press5 - give arg types
+  void HC08_Press5();
+Control_System.h(19): warning:  #1295-D: Deprecated declaration HC08_Press6 - give arg types
+  void HC08_Press6();
+Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_ADC.h(11): warning:  #1295-D: Deprecated declaration ADC_Get - give arg types
+  u16 ADC_Get();
+USER_ADC.h(12): warning:  #1-D: last line of file ends without a newline
+  int ADC_Print(u16 num);
+main.c(63): warning:  #177-D: variable "p1" was declared but never referenced
+        float p1;
+main.c(72): warning:  #177-D: variable "AAC_word" was declared but never referenced
+        char *AAC_word = "AAC 100000";
+main.c(74): warning:  #177-D: variable "len_AACwz" was declared but never referenced
+        size_t len_AACwz;
+main.c(75): warning:  #177-D: variable "print_test" was declared but never referenced
+        char print_test[12];
+main.c(80): warning:  #177-D: variable "Duty_PMW" was declared but never referenced
+        float Duty_PMW;
+main.c: 23 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling Array.c...
+..\HARDWARE\STEER\steer.h(14): warning:  #1295-D: Deprecated declaration steer_speed_choice - give arg types
+  int steer_speed_choice();
+..\HARDWARE\STEER\steer.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+Control_System.h(18): warning:  #1295-D: Deprecated declaration HC08_Press5 - give arg types
+  void HC08_Press5();
+Control_System.h(19): warning:  #1295-D: Deprecated declaration HC08_Press6 - give arg types
+  void HC08_Press6();
+Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_ADC.h(11): warning:  #1295-D: Deprecated declaration ADC_Get - give arg types
+  u16 ADC_Get();
+USER_ADC.h(12): warning:  #1-D: last line of file ends without a newline
+  int ADC_Print(u16 num);
+Array.c(203): warning:  #1-D: last line of file ends without a newline
+  }
+Array.c: 12 warnings, 0 errors
+compiling USER_ADC.c...
+..\HARDWARE\STEER\steer.h(14): warning:  #1295-D: Deprecated declaration steer_speed_choice - give arg types
+  int steer_speed_choice();
+..\HARDWARE\STEER\steer.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_ADC.h(11): warning:  #1295-D: Deprecated declaration ADC_Get - give arg types
+  u16 ADC_Get();
+USER_ADC.h(12): warning:  #1-D: last line of file ends without a newline
+  int ADC_Print(u16 num);
+Control_System.h(18): warning:  #1295-D: Deprecated declaration HC08_Press5 - give arg types
+  void HC08_Press5();
+Control_System.h(19): warning:  #1295-D: Deprecated declaration HC08_Press6 - give arg types
+  void HC08_Press6();
+Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_ADC.h(11): warning:  #1295-D: Deprecated declaration ADC_Get - give arg types
+  u16 ADC_Get();
+USER_ADC.h(12): warning:  #1-D: last line of file ends without a newline
+  int ADC_Print(u16 num);
+USER_ADC.c(43): warning:  #1-D: last line of file ends without a newline
+  }
+USER_ADC.c: 17 warnings, 0 errors
+compiling USER_MPU6050.c...
+..\HARDWARE\STEER\steer.h(14): warning:  #1295-D: Deprecated declaration steer_speed_choice - give arg types
+  int steer_speed_choice();
+..\HARDWARE\STEER\steer.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_ADC.h(11): warning:  #1295-D: Deprecated declaration ADC_Get - give arg types
+  u16 ADC_Get();
+USER_ADC.h(12): warning:  #1-D: last line of file ends without a newline
+  int ADC_Print(u16 num);
+Control_System.h(18): warning:  #1295-D: Deprecated declaration HC08_Press5 - give arg types
+  void HC08_Press5();
+Control_System.h(19): warning:  #1295-D: Deprecated declaration HC08_Press6 - give arg types
+  void HC08_Press6();
+Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_MPU6050.c(126): warning:  #550-D: variable "temper" was set but never used
+        short temper;                                   //?Â¶?  
+USER_MPU6050.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+        short temp;
+USER_MPU6050.c(128): warning:  #177-D: variable "line_num" was declared but never referenced
+        int line_num;           // ??Ê¾??????
+USER_MPU6050.c(133): warning:  #177-D: variable "key" was declared but never referenced
+        u8 key;
+USER_MPU6050.c(208): warning:  #177-D: variable "aazw_str" was declared but never referenced
+        char aazw_str[10];
+USER_MPU6050.c: 19 warnings, 0 errors
+compiling Control_System.c...
+..\HARDWARE\STEER\steer.h(14): warning:  #1295-D: Deprecated declaration steer_speed_choice - give arg types
+  int steer_speed_choice();
+..\HARDWARE\STEER\steer.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+USER_ADC.h(11): warning:  #1295-D: Deprecated declaration ADC_Get - give arg types
+  u16 ADC_Get();
+USER_ADC.h(12): warning:  #1-D: last line of file ends without a newline
+  int ADC_Print(u16 num);
+Control_System.h(18): warning:  #1295-D: Deprecated declaration HC08_Press5 - give arg types
+  void HC08_Press5();
+Control_System.h(19): warning:  #1295-D: Deprecated declaration HC08_Press6 - give arg types
+  void HC08_Press6();
+Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+Control_System.c(108): warning:  #177-D: variable "L" was declared but never referenced
+        float L;
+Control_System.c(109): warning:  #177-D: variable "k_reciprocal" was declared but never referenced
+        float k_reciprocal;
+Control_System.c(110): warning:  #177-D: variable "x0" was declared but never referenced
+        float x0;
+Control_System.c: 15 warnings, 0 errors
+compiling led.c...
+compiling key.c...
+..\HARDWARE\KEY\key.c(107): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\KEY\key.c: 1 warning, 0 errors
+compiling lcd.c...
+compiling tpad.c...
+compiling exti.c...
+..\HARDWARE\STEER\steer.h(14): warning:  #1295-D: Deprecated declaration steer_speed_choice - give arg types
+  int steer_speed_choice();
+..\HARDWARE\STEER\steer.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\EXTI\exti.c: 2 warnings, 0 errors
+compiling timer.c...
+compiling sccb.c...
+compiling hm01b0.c...
+..\HARDWARE\HM01B0\hm01b0.h(121): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\HARDWARE\HM01B0\hm01b0.c(12): warning:  #177-D: variable "i" was declared but never referenced
+        u16 i=0;
+..\HARDWARE\HM01B0\hm01b0.c(13): warning:  #177-D: variable "reg" was declared but never referenced
+        u16 reg=0;
+..\HARDWARE\HM01B0\hm01b0.c(109): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\HM01B0\hm01b0.c: 4 warnings, 0 errors
+compiling steer.c...
+..\HARDWARE\STEER\steer.h(14): warning:  #1295-D: Deprecated declaration steer_speed_choice - give arg types
+  int steer_speed_choice();
+..\HARDWARE\STEER\steer.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\Control_System.h(18): warning:  #1295-D: Deprecated declaration HC08_Press5 - give arg types
+  void HC08_Press5();
+..\USER\Control_System.h(19): warning:  #1295-D: Deprecated declaration HC08_Press6 - give arg types
+  void HC08_Press6();
+..\USER\Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+..\USER\USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+..\USER\USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+..\USER\USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+..\USER\USER_ADC.h(11): warning:  #1295-D: Deprecated declaration ADC_Get - give arg types
+  u16 ADC_Get();
+..\USER\USER_ADC.h(12): warning:  #1-D: last line of file ends without a newline
+  int ADC_Print(u16 num);
+..\HARDWARE\STEER\steer.c(120): warning:  #140-D: too many arguments in function call
+                                delay_us(steer_speed_choice(steer_speed_Flag)); //set the delay value to change motor speed
+..\HARDWARE\STEER\steer.c(122): warning:  #140-D: too many arguments in function call
+                                delay_us(steer_speed_choice(steer_speed_Flag));
+..\HARDWARE\STEER\steer.c(174): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\STEER\steer.c: 14 warnings, 0 errors
+compiling HC08.c...
+compiling mpu6050.c...
+compiling mpuiic.c...
+compiling adc.c...
+..\HARDWARE\STEER\steer.h(14): warning:  #1295-D: Deprecated declaration steer_speed_choice - give arg types
+  int steer_speed_choice();
+..\HARDWARE\STEER\steer.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+..\USER\USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+..\USER\USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+..\USER\USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+..\USER\USER_ADC.h(11): warning:  #1295-D: Deprecated declaration ADC_Get - give arg types
+  u16 ADC_Get();
+..\USER\USER_ADC.h(12): warning:  #1-D: last line of file ends without a newline
+  int ADC_Print(u16 num);
+..\USER\Control_System.h(18): warning:  #1295-D: Deprecated declaration HC08_Press5 - give arg types
+  void HC08_Press5();
+..\USER\Control_System.h(19): warning:  #1295-D: Deprecated declaration HC08_Press6 - give arg types
+  void HC08_Press6();
+..\USER\Control_System.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\USER_MPU6050.h(27): warning:  #1295-D: Deprecated declaration MPU_USER_Init - give arg types
+  int MPU_USER_Init();
+..\USER\USER_MPU6050.h(33): warning:  #1-D: last line of file ends without a newline
+  float MPU_wRA(int t, float* wRA);
+..\HARDWARE\ADCDeep\adc.c: 14 warnings, 0 errors
+compiling inv_mpu.c...
+compiling inv_mpu_dmp_motion_driver.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling misc.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_wwdg.c...
+compiling usmart.c...
+compiling usmart_config.c...
+compiling usmart_str.c...
+linking...
+Program Size: Code=45928 RO-data=10460 RW-data=508 ZI-data=5116  
+FromELF: creating hex file...
+"..\OBJ\OV7670.axf" - 0 Error(s), 121 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\61716\Desktop\ECE445\Sensors\GitPath\ECE445_STM32\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
