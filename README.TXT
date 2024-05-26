@@ -1,3 +1,5 @@
+Use of this resource is subject to the Academic Free License v3.0.
+
 注释：
 MPU6050(连接在PB10(SCL),PB11(SDA),PA15(AD0)上面,INT未用到). 
 修改文档
